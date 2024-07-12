@@ -1,10 +1,6 @@
 import { CalendarApp } from '@schedule-x/calendar'
 import { useEffect, useState } from 'preact/hooks'
 import { createElement, Fragment } from 'preact'
-/*
-  Todo: Find out if there is a builtin equiv of these.
-    Avoid using preact/compat if possible
-*/
 import { ComponentType, createPortal } from 'preact/compat'
 import {
   CustomComponentMeta,
