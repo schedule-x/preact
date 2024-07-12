@@ -3,7 +3,7 @@ import {
   CalendarConfig,
   createCalendar,
 } from '@schedule-x/calendar'
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'preact/hooks'
 
 export function useCalendarApp(config: CalendarConfig) {
   const [calendarApp] = useState(createCalendar(config))

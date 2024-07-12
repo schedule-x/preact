@@ -1,13 +1,18 @@
 import { CalendarApp } from '@schedule-x/calendar'
-import React, { createElement, Fragment, useEffect, useState } from 'react'
-import { createPortal } from 'react-dom'
+import { useEffect, useState } from 'preact/hooks'
+import { createElement, Fragment } from 'preact'
+/*
+  Todo: Find out if there is a builtin equiv of these.
+    Avoid using preact/compat if possible
+*/
+import { ComponentType, createPortal } from 'preact/compat'
 import {
   CustomComponentMeta,
   CustomComponentsMeta,
 } from './types/custom-components.ts'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-type ReactComponent = React.ComponentType<any>
+type ReactComponent = ComponentType<any>
 
 type props = {
   calendarApp: CalendarApp | undefined // undefined allowed to prevent errors in SSR

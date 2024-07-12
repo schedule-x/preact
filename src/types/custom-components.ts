@@ -1,4 +1,4 @@
-import { ReactElement } from 'react'
+import { ReactElement } from 'preact/compat'
 
 export type CustomComponentMeta = {
   Component: ReactElement

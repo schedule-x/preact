@@ -31,11 +31,11 @@
   },
   "peerDependencies": {
     "@schedule-x/calendar": "1.50.0",
-    "react": "^16.7.0 || ^17 || ^18",
-    "react-dom": "^16.7.0 || ^17 || ^18"
+    "preact": "^10.22.1"
   },
   "devDependencies": {
     "@fontsource/open-sans": "^5.0.19",
+    "@preact/preset-vite": "^2.8.2",
     "@rollup/plugin-commonjs": "^26.0.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.5",
@@ -47,17 +47,16 @@
     "@schedule-x/theme-default": "^1.41.2",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
-    "@vitejs/plugin-react": "^4.2.1",
     "cypress": "^13.6.1",
     "eslint": "^8.55.0",
+    "eslint-config-preact": "^1.4.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "husky": "^9.0.0",
+    "preact": "^10.22.1",
     "rollup": "^4.9.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
@@ -74,5 +73,11 @@
     "type": "git",
     "url": "https://github.com/schedule-x/react"
   },
-  "homepage": "https://schedule-x.dev"
+  "homepage": "https://schedule-x.dev",
+  "eslintConfig": {
+    "extends": "preact"
+  },
+  "dependencies": {
+    "@rollup/plugin-alias": "^5.1.0"
+  }
 }
