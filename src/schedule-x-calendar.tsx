@@ -1,30 +1,30 @@
 import { CalendarApp } from '@schedule-x/calendar'
 import { useEffect, useState } from 'preact/hooks'
-import { createElement, Fragment } from 'preact'
-import { ComponentType, createPortal } from 'preact/compat'
+import { ComponentType, createElement, Fragment } from 'preact'
+import { createPortal } from 'preact/compat'
 import {
   CustomComponentMeta,
   CustomComponentsMeta,
 } from './types/custom-components.ts'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-type ReactComponent = ComponentType<any>
+type PreactComponent = ComponentType<any>
 
 type props = {
   calendarApp: CalendarApp | undefined // undefined allowed to prevent errors in SSR
   customComponents?: {
-    timeGridEvent?: ReactComponent
-    dateGridEvent?: ReactComponent
-    monthGridEvent?: ReactComponent
-    monthAgendaEvent?: ReactComponent
-    eventModal?: ReactComponent
+    timeGridEvent?: PreactComponent
+    dateGridEvent?: PreactComponent
+    monthGridEvent?: PreactComponent
+    monthAgendaEvent?: PreactComponent
+    eventModal?: PreactComponent
   }
 }
 
 const createCustomComponentFn =
   (
     setCustomComponent: (component: CustomComponentMeta) => void,
-    customComponent: ReactComponent
+    customComponent: PreactComponent
   ) =>
   (wrapperElement: HTMLElement, props: Record<string, unknown>) => {
     setCustomComponent({
