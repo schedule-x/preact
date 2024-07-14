@@ -1,16 +1,16 @@
 {
-  "name": "@schedule-x/react",
+  "name": "@schedule-x/preact",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "description": "React components for ScheduleX",
+  "description": "Preact components for ScheduleX",
   "keywords": [
     "calendar",
     "event",
     "dark-mode",
     "internationalization",
-    "react"
+    "preact"
   ],
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -31,7 +31,7 @@
   },
   "peerDependencies": {
     "@schedule-x/calendar": "1.50.0",
-    "preact": "^10.22.1"
+    "preact": "^10"
   },
   "devDependencies": {
     "@fontsource/open-sans": "^5.0.19",
@@ -56,7 +56,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "husky": "^9.0.0",
-    "preact": "^10.22.1",
+    "preact": "^10",
     "rollup": "^4.9.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
@@ -71,13 +71,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/schedule-x/react"
+    "url": "https://github.com/schedule-x/preact"
   },
   "homepage": "https://schedule-x.dev",
   "eslintConfig": {
     "extends": "preact"
-  },
-  "dependencies": {
-    "@rollup/plugin-alias": "^5.1.0"
   }
 }
