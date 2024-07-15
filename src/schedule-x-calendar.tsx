@@ -84,7 +84,7 @@ export function ScheduleXCalendar({ calendarApp, customComponents }: props) {
   return (
     <>
       <Fragment>
-        <div className="sx-react-calendar-wrapper" id={randomId}></div>
+        <div className="sx-preact-calendar-wrapper" id={randomId}></div>
 
         {customComponentsMeta.map(({ Component, wrapperElement }) => {
           return createPortal(Component, wrapperElement)
