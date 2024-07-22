@@ -8,20 +8,19 @@
 
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
+    "emitDeclarationOnly": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
-
+    "jsxImportSource": "preact",
+    "outDir": "dist/types",
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    "declaration": true,
-    "declarationDir": "types",
-    "emitDeclarationOnly": true
+    "declaration": true
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }],
-  "types": ["vite/client", "node"]
+  "exclude": ["node_modules", "dist", "./cypress"]
 }
