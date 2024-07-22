@@ -3,9 +3,7 @@ import preact from '@preact/preset-vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-      preact(),
-  ],
+  plugins: [preact()],
   build: {
     lib: {
       entry: 'src/index.tsx',
@@ -13,6 +11,6 @@ export default defineConfig({
     },
     rollupOptions: {
       external: ['preact', '@schedule-x/calendar'],
-    }
+    },
   },
 })
