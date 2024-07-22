@@ -1,13 +1,12 @@
-import {
-  CalendarApp,
-  CalendarConfig,
-  createCalendar,
-} from '@schedule-x/calendar'
-import { useEffect, useState } from 'preact/hooks'
+import {CalendarApp, CalendarConfig, createCalendar,} from '@schedule-x/calendar'
+import {useEffect, useState} from 'preact/hooks'
+import {signal} from '@preact/signals'
+
+const calendarApp = signal<CalendarApp | null>(null);
 
 export function useCalendarApp(config: CalendarConfig) {
-  const [calendarApp] = useState(createCalendar(config))
-  return calendarApp
+  if (!calendarApp.value) calendarApp.value = createCalendar(config);
+  return calendarApp.value;
 }
 
 export function useNextCalendarApp(config: CalendarConfig) {
