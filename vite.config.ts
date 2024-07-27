@@ -10,7 +10,7 @@ export default defineConfig({
       name: 'ScheduleXPreact',
     },
     rollupOptions: {
-      external: ['preact', '@schedule-x/calendar'],
+      external: ['preact', 'preact/compat', '@schedule-x/calendar', 'preact/hooks'],
     },
   },
 })

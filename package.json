@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && npm run build:dts",
     "build:dts": "node scripts/build-declarations.mjs",
     "test": "./node_modules/.bin/cypress run",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 5",
