@@ -4,19 +4,17 @@ All notable changes to this project will be documented in this file. See [Conven
 
 # 1.0.0 (2024-07-29)
 
-
 ### Bug Fixes
 
-* development mode now runs ([b559140](https://github.com/schedule-x/preact/commit/b559140532ae393f2e5dcb24052607256076e5e0))
-* reduce use of 'preact/compat' ([b009d89](https://github.com/schedule-x/preact/commit/b009d89b27fe46718b4c836df43de22b9f374104))
-* remove todo comment ([0038062](https://github.com/schedule-x/preact/commit/00380629240d7a4d4dca4fc886e65c53e929d292))
-* use correct syntax when initializing useState in custom hook ([ccc9211](https://github.com/schedule-x/preact/commit/ccc9211459800ca2dfce8dfd394b193999a4686d))
-
+- development mode now runs ([b559140](https://github.com/schedule-x/preact/commit/b559140532ae393f2e5dcb24052607256076e5e0))
+- reduce use of 'preact/compat' ([b009d89](https://github.com/schedule-x/preact/commit/b009d89b27fe46718b4c836df43de22b9f374104))
+- remove todo comment ([0038062](https://github.com/schedule-x/preact/commit/00380629240d7a4d4dca4fc886e65c53e929d292))
+- use correct syntax when initializing useState in custom hook ([ccc9211](https://github.com/schedule-x/preact/commit/ccc9211459800ca2dfce8dfd394b193999a4686d))
 
 ### Features
 
-* create preact component ([3e6aea4](https://github.com/schedule-x/preact/commit/3e6aea41e272a263ed5482ae490367f965e158d7))
-* rename wrapper class ([df7abb3](https://github.com/schedule-x/preact/commit/df7abb3a6ad43af14ae09b5497c6afe65b671d82))
+- create preact component ([3e6aea4](https://github.com/schedule-x/preact/commit/3e6aea41e272a263ed5482ae490367f965e158d7))
+- rename wrapper class ([df7abb3](https://github.com/schedule-x/preact/commit/df7abb3a6ad43af14ae09b5497c6afe65b671d82))
 
 # [1.49.0](https://github.com/schedule-x/react/compare/v1.48.0...v1.49.0) (2024-07-11)
 
