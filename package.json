@@ -1,28 +1,29 @@
 {
-  "name": "@schedule-x/react",
+  "name": "@schedule-x/preact",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "description": "React components for ScheduleX",
+  "description": "Preact components for ScheduleX",
   "keywords": [
     "calendar",
     "event",
     "dark-mode",
     "internationalization",
-    "react"
+    "preact"
   ],
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/types/index.d.ts",
-  "version": "1.49.0",
+  "version": "0.1.0",
   "type": "module",
   "files": [
     "dist"
   ],
   "scripts": {
     "dev": "vite",
-    "build": "rollup -c",
+    "build": "vite build && npm run build:dts",
+    "build:dts": "node scripts/build-declarations.mjs",
     "test": "./node_modules/.bin/cypress run",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 5",
     "preview": "vite preview",
@@ -31,14 +32,13 @@
   },
   "peerDependencies": {
     "@schedule-x/calendar": "1.50.0",
-    "react": "^16.7.0 || ^17 || ^18",
-    "react-dom": "^16.7.0 || ^17 || ^18"
+    "preact": "^10"
   },
   "devDependencies": {
     "@fontsource/open-sans": "^5.0.19",
+    "@preact/preset-vite": "^2.8.2",
     "@rollup/plugin-commonjs": "^26.0.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-typescript": "^11.1.5",
     "@schedule-x/drag-and-drop": "^1.41.2",
     "@schedule-x/e2e-testing": "^1.41.2",
     "@schedule-x/eslint-config": "^1.41.2",
@@ -47,17 +47,16 @@
     "@schedule-x/theme-default": "^1.41.2",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
-    "@vitejs/plugin-react": "^4.2.1",
     "cypress": "^13.6.1",
     "eslint": "^8.55.0",
+    "eslint-config-preact": "^1.4.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "husky": "^9.0.0",
+    "preact": "^10",
     "rollup": "^4.9.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
@@ -72,7 +71,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/schedule-x/react"
+    "url": "https://github.com/schedule-x/preact"
   },
-  "homepage": "https://schedule-x.dev"
+  "homepage": "https://schedule-x.dev",
+  "eslintConfig": {
+    "extends": "preact"
+  }
 }

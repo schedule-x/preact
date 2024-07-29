@@ -1,7 +1,7 @@
-import { ReactElement } from 'react'
+import { VNode } from 'preact'
 
 export type CustomComponentMeta = {
-  Component: ReactElement
+  Component: VNode
   wrapperElement: HTMLElement
 }
 

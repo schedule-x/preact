@@ -1,7 +1,21 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import preact from '@preact/preset-vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [preact()],
+  build: {
+    lib: {
+      entry: 'src/index.tsx',
+      name: 'ScheduleXPreact',
+    },
+    rollupOptions: {
+      external: [
+        'preact',
+        'preact/compat',
+        '@schedule-x/calendar',
+        'preact/hooks',
+      ],
+    },
+  },
 })

@@ -1,29 +1,30 @@
 import { CalendarApp } from '@schedule-x/calendar'
-import React, { createElement, Fragment, useEffect, useState } from 'react'
-import { createPortal } from 'react-dom'
+import { useEffect, useState } from 'preact/hooks'
+import { ComponentType, createElement, Fragment } from 'preact'
+import { createPortal } from 'preact/compat'
 import {
   CustomComponentMeta,
   CustomComponentsMeta,
 } from './types/custom-components.ts'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-type ReactComponent = React.ComponentType<any>
+type PreactComponent = ComponentType<any>
 
 type props = {
   calendarApp: CalendarApp | undefined // undefined allowed to prevent errors in SSR
   customComponents?: {
-    timeGridEvent?: ReactComponent
-    dateGridEvent?: ReactComponent
-    monthGridEvent?: ReactComponent
-    monthAgendaEvent?: ReactComponent
-    eventModal?: ReactComponent
+    timeGridEvent?: PreactComponent
+    dateGridEvent?: PreactComponent
+    monthGridEvent?: PreactComponent
+    monthAgendaEvent?: PreactComponent
+    eventModal?: PreactComponent
   }
 }
 
 const createCustomComponentFn =
   (
     setCustomComponent: (component: CustomComponentMeta) => void,
-    customComponent: ReactComponent
+    customComponent: PreactComponent
   ) =>
   (wrapperElement: HTMLElement, props: Record<string, unknown>) => {
     setCustomComponent({
@@ -83,7 +84,7 @@ export function ScheduleXCalendar({ calendarApp, customComponents }: props) {
   return (
     <>
       <Fragment>
-        <div className="sx-react-calendar-wrapper" id={randomId}></div>
+        <div className="sx-preact-calendar-wrapper" id={randomId}></div>
 
         {customComponentsMeta.map(({ Component, wrapperElement }) => {
           return createPortal(Component, wrapperElement)

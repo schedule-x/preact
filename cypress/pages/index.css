@@ -3,7 +3,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.sx-react-calendar-wrapper {
+.sx-preact-calendar-wrapper {
   width: 90%;
   height: 800px;
   max-height: 90vh;

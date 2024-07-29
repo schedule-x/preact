@@ -23,7 +23,7 @@ h1 {
   line-height: 1.1;
 }
 
-.sx-react-calendar-wrapper {
+.sx-preact-calendar-wrapper {
   height: 700px;
   max-height: 100vh;
   width: 100%;
