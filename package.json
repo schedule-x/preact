@@ -12,8 +12,8 @@
     "internationalization",
     "preact"
   ],
-  "main": "dist/index.cjs",
-  "module": "dist/index.js",
+  "main": "dist/preact.umd.cjs",
+  "module": "dist/preact.js",
   "types": "dist/types/index.d.ts",
   "version": "1.0.1",
   "type": "module",
