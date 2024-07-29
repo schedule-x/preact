@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/schedule-x/preact/compare/v1.0.0...v1.0.1) (2024-07-29)
+
+
+### Bug Fixes
+
+* build script for declarations ([#6](https://github.com/schedule-x/preact/issues/6)) ([eadaf18](https://github.com/schedule-x/preact/commit/eadaf1810e63547bd26f22ec260e0e140fbefea9))
+
 # 1.0.0 (2024-07-29)
 
 ### Bug Fixes
