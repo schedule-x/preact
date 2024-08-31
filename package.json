@@ -15,7 +15,7 @@
   "main": "dist/preact.umd.cjs",
   "module": "dist/preact.js",
   "types": "dist/types/index.d.ts",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "type": "module",
   "files": [
     "dist"
