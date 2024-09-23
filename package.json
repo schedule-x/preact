@@ -31,7 +31,7 @@
     "build:publish": "npm run build && npm publish"
   },
   "peerDependencies": {
-    "@schedule-x/calendar": "1.63.1",
+    "@schedule-x/calendar": "2.0.0",
     "preact": "^10"
   },
   "devDependencies": {
@@ -39,12 +39,12 @@
     "@preact/preset-vite": "^2.8.2",
     "@rollup/plugin-commonjs": "^26.0.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
-    "@schedule-x/drag-and-drop": "^1.41.2",
-    "@schedule-x/e2e-testing": "^1.41.2",
-    "@schedule-x/eslint-config": "^1.41.2",
-    "@schedule-x/event-modal": "^1.41.2",
-    "@schedule-x/prettier-config": "^1.41.2",
-    "@schedule-x/theme-default": "^1.41.2",
+    "@schedule-x/drag-and-drop": "^2.0.0",
+    "@schedule-x/e2e-testing": "^2.0.0",
+    "@schedule-x/eslint-config": "^2.0.0",
+    "@schedule-x/event-modal": "^2.0.0",
+    "@schedule-x/prettier-config": "^2.0.0",
+    "@schedule-x/theme-default": "^2.0.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
