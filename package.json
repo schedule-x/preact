@@ -31,7 +31,7 @@
     "build:publish": "npm run build && npm publish"
   },
   "peerDependencies": {
-    "@schedule-x/calendar": "2.2.1",
+    "@schedule-x/calendar": "2.3.0",
     "preact": "^10"
   },
   "devDependencies": {
