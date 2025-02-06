@@ -6,6 +6,7 @@ import {
   CustomComponentMeta,
   CustomComponentsMeta,
 } from './types/custom-components.ts'
+import { CustomComponentName } from '@schedule-x/shared'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type PreactComponent = ComponentType<any>
@@ -13,11 +14,7 @@ type PreactComponent = ComponentType<any>
 type props = {
   calendarApp: CalendarApp | undefined // undefined allowed to prevent errors in SSR
   customComponents?: {
-    timeGridEvent?: PreactComponent
-    dateGridEvent?: PreactComponent
-    monthGridEvent?: PreactComponent
-    monthAgendaEvent?: PreactComponent
-    eventModal?: PreactComponent
+    [key in CustomComponentName]?: PreactComponent
   }
 }
 
@@ -64,13 +61,10 @@ export function ScheduleXCalendar({ calendarApp, customComponents }: props) {
     for (const [componentName, Component] of Object.entries(
       customComponents || {}
     )) {
+      if (!Component) continue
+
       calendarApp._setCustomComponentFn(
-        componentName as
-          | 'timeGridEvent'
-          | 'dateGridEvent'
-          | 'monthGridEvent'
-          | 'monthAgendaEvent'
-          | 'eventModal',
+        componentName,
         createCustomComponentFn(setComponent, Component)
       )
     }

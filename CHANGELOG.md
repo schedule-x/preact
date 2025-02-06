@@ -4,218 +4,187 @@ All notable changes to this project will be documented in this file. See [Conven
 
 # [2.12.0](https://github.com/schedule-x/preact/compare/v2.11.1...v2.12.0) (2025-02-04)
 
-
 ### Features
 
-* **deps:** update schedule-x monorepo packages to v2.17.0 ([#52](https://github.com/schedule-x/preact/issues/52)) ([95f91df](https://github.com/schedule-x/preact/commit/95f91dff70fe689794980738d253c26ef870594f))
+- **deps:** update schedule-x monorepo packages to v2.17.0 ([#52](https://github.com/schedule-x/preact/issues/52)) ([95f91df](https://github.com/schedule-x/preact/commit/95f91dff70fe689794980738d253c26ef870594f))
 
 ## [2.11.1](https://github.com/schedule-x/preact/compare/v2.11.0...v2.11.1) (2025-01-31)
 
-
 ### Bug Fixes
 
-* **deps:** update schedule-x monorepo packages to v2.16.1 ([#51](https://github.com/schedule-x/preact/issues/51)) ([fb2276e](https://github.com/schedule-x/preact/commit/fb2276eccd04f1d421da80dc5c6bf5e96ed2bb1a))
+- **deps:** update schedule-x monorepo packages to v2.16.1 ([#51](https://github.com/schedule-x/preact/issues/51)) ([fb2276e](https://github.com/schedule-x/preact/commit/fb2276eccd04f1d421da80dc5c6bf5e96ed2bb1a))
 
 # [2.11.0](https://github.com/schedule-x/preact/compare/v2.10.0...v2.11.0) (2025-01-28)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v2.16.0 ([#50](https://github.com/schedule-x/preact/issues/50)) ([b388716](https://github.com/schedule-x/preact/commit/b3887169013e18f3de7e181632a5f341d7ac3ede))
+- update schedule-x monorepo packages to v2.16.0 ([#50](https://github.com/schedule-x/preact/issues/50)) ([b388716](https://github.com/schedule-x/preact/commit/b3887169013e18f3de7e181632a5f341d7ac3ede))
 
 # [2.10.0](https://github.com/schedule-x/preact/compare/v2.9.2...v2.10.0) (2025-01-27)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v2.15.1 ([#47](https://github.com/schedule-x/preact/issues/47)) ([a855a48](https://github.com/schedule-x/preact/commit/a855a4885e09d8b243b8dcba4160b31c918da84f))
+- update schedule-x monorepo packages to v2.15.1 ([#47](https://github.com/schedule-x/preact/issues/47)) ([a855a48](https://github.com/schedule-x/preact/commit/a855a4885e09d8b243b8dcba4160b31c918da84f))
 
 ## [2.9.2](https://github.com/schedule-x/preact/compare/v2.9.1...v2.9.2) (2025-01-16)
 
-
 ### Bug Fixes
 
-* **deps:** update schedule-x monorepo packages to v2.14.2 ([#44](https://github.com/schedule-x/preact/issues/44)) ([df3153d](https://github.com/schedule-x/preact/commit/df3153d76d2317615063ee608bed7e9f6f8c9c58))
+- **deps:** update schedule-x monorepo packages to v2.14.2 ([#44](https://github.com/schedule-x/preact/issues/44)) ([df3153d](https://github.com/schedule-x/preact/commit/df3153d76d2317615063ee608bed7e9f6f8c9c58))
 
 ## [2.9.1](https://github.com/schedule-x/preact/compare/v2.9.0...v2.9.1) (2024-12-23)
 
-
 ### Bug Fixes
 
-* update schedule-x monorepo packages to v2.12.1 ([#43](https://github.com/schedule-x/preact/issues/43)) ([4204db4](https://github.com/schedule-x/preact/commit/4204db4818e886a6b1e24b8cb07f5e8561712850))
+- update schedule-x monorepo packages to v2.12.1 ([#43](https://github.com/schedule-x/preact/issues/43)) ([4204db4](https://github.com/schedule-x/preact/commit/4204db4818e886a6b1e24b8cb07f5e8561712850))
 
 # [2.9.0](https://github.com/schedule-x/preact/compare/v2.8.0...v2.9.0) (2024-12-20)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v2.12.0 ([#42](https://github.com/schedule-x/preact/issues/42)) ([b1b2e72](https://github.com/schedule-x/preact/commit/b1b2e72b190e57bf292abca6950ccb154525c6f9))
+- update schedule-x monorepo packages to v2.12.0 ([#42](https://github.com/schedule-x/preact/issues/42)) ([b1b2e72](https://github.com/schedule-x/preact/commit/b1b2e72b190e57bf292abca6950ccb154525c6f9))
 
 # [2.8.0](https://github.com/schedule-x/preact/compare/v2.7.0...v2.8.0) (2024-12-10)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v2.11.0 ([#39](https://github.com/schedule-x/preact/issues/39)) ([e9e9e37](https://github.com/schedule-x/preact/commit/e9e9e37a7d66d1692d419127babc97a7df410489))
+- update schedule-x monorepo packages to v2.11.0 ([#39](https://github.com/schedule-x/preact/issues/39)) ([e9e9e37](https://github.com/schedule-x/preact/commit/e9e9e37a7d66d1692d419127babc97a7df410489))
 
 # [2.7.0](https://github.com/schedule-x/preact/compare/v2.6.0...v2.7.0) (2024-12-03)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v2.10.0 ([#38](https://github.com/schedule-x/preact/issues/38)) ([edd1eeb](https://github.com/schedule-x/preact/commit/edd1eebb8552be553d0d80a23efa0056228f5096))
+- update schedule-x monorepo packages to v2.10.0 ([#38](https://github.com/schedule-x/preact/issues/38)) ([edd1eeb](https://github.com/schedule-x/preact/commit/edd1eebb8552be553d0d80a23efa0056228f5096))
 
 # [2.6.0](https://github.com/schedule-x/preact/compare/v2.5.1...v2.6.0) (2024-11-30)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v2.9.0 ([#37](https://github.com/schedule-x/preact/issues/37)) ([4323bb5](https://github.com/schedule-x/preact/commit/4323bb58e1113b6c513712df654175d4f571676c))
+- update schedule-x monorepo packages to v2.9.0 ([#37](https://github.com/schedule-x/preact/issues/37)) ([4323bb5](https://github.com/schedule-x/preact/commit/4323bb58e1113b6c513712df654175d4f571676c))
 
 ## [2.5.1](https://github.com/schedule-x/preact/compare/v2.5.0...v2.5.1) (2024-11-29)
 
-
 ### Bug Fixes
 
-* update schedule-x monorepo packages to v2.8.1 ([#35](https://github.com/schedule-x/preact/issues/35)) ([35f01e7](https://github.com/schedule-x/preact/commit/35f01e73257af28ee4091b4b73f8a469bf81ff28))
+- update schedule-x monorepo packages to v2.8.1 ([#35](https://github.com/schedule-x/preact/issues/35)) ([35f01e7](https://github.com/schedule-x/preact/commit/35f01e73257af28ee4091b4b73f8a469bf81ff28))
 
 # [2.5.0](https://github.com/schedule-x/preact/compare/v2.4.0...v2.5.0) (2024-11-25)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v2.7.0 ([#33](https://github.com/schedule-x/preact/issues/33)) ([a45fb0e](https://github.com/schedule-x/preact/commit/a45fb0e4cbe3d7e45e0c8d52e7e8890c51776346))
+- update schedule-x monorepo packages to v2.7.0 ([#33](https://github.com/schedule-x/preact/issues/33)) ([a45fb0e](https://github.com/schedule-x/preact/commit/a45fb0e4cbe3d7e45e0c8d52e7e8890c51776346))
 
 # [2.4.0](https://github.com/schedule-x/preact/compare/v2.3.3...v2.4.0) (2024-11-15)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v2.6.0 ([#32](https://github.com/schedule-x/preact/issues/32)) ([2941e50](https://github.com/schedule-x/preact/commit/2941e50db22c2bea6826375f3e6e4d0a905f01d4))
+- update schedule-x monorepo packages to v2.6.0 ([#32](https://github.com/schedule-x/preact/issues/32)) ([2941e50](https://github.com/schedule-x/preact/commit/2941e50db22c2bea6826375f3e6e4d0a905f01d4))
 
 ## [2.3.3](https://github.com/schedule-x/preact/compare/v2.3.2...v2.3.3) (2024-11-08)
 
-
 ### Bug Fixes
 
-* update schedule-x monorepo packages to v2.4.3 ([#31](https://github.com/schedule-x/preact/issues/31)) ([bb61bf2](https://github.com/schedule-x/preact/commit/bb61bf2afde137f762681b8e41dbc1043378314f))
+- update schedule-x monorepo packages to v2.4.3 ([#31](https://github.com/schedule-x/preact/issues/31)) ([bb61bf2](https://github.com/schedule-x/preact/commit/bb61bf2afde137f762681b8e41dbc1043378314f))
 
 ## [2.3.2](https://github.com/schedule-x/preact/compare/v2.3.1...v2.3.2) (2024-11-06)
 
-
 ### Bug Fixes
 
-* update schedule-x monorepo packages to v2.4.2 ([#30](https://github.com/schedule-x/preact/issues/30)) ([cd43939](https://github.com/schedule-x/preact/commit/cd439396e6603688ae2365a14a148a9686567ab3))
+- update schedule-x monorepo packages to v2.4.2 ([#30](https://github.com/schedule-x/preact/issues/30)) ([cd43939](https://github.com/schedule-x/preact/commit/cd439396e6603688ae2365a14a148a9686567ab3))
 
 ## [2.3.1](https://github.com/schedule-x/preact/compare/v2.3.0...v2.3.1) (2024-10-10)
 
-
 ### Bug Fixes
 
-* update schedule-x monorepo packages to v2.4.1 ([#27](https://github.com/schedule-x/preact/issues/27)) ([9385bfd](https://github.com/schedule-x/preact/commit/9385bfd806e990f4dd6c10f1d9b332ffb2363f00))
+- update schedule-x monorepo packages to v2.4.1 ([#27](https://github.com/schedule-x/preact/issues/27)) ([9385bfd](https://github.com/schedule-x/preact/commit/9385bfd806e990f4dd6c10f1d9b332ffb2363f00))
 
 # [2.3.0](https://github.com/schedule-x/preact/compare/v2.2.0...v2.3.0) (2024-10-05)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v2.4.0 ([#26](https://github.com/schedule-x/preact/issues/26)) ([dd787b3](https://github.com/schedule-x/preact/commit/dd787b3c2d1886f38485370eb4218fcc6763ff0b))
+- update schedule-x monorepo packages to v2.4.0 ([#26](https://github.com/schedule-x/preact/issues/26)) ([dd787b3](https://github.com/schedule-x/preact/commit/dd787b3c2d1886f38485370eb4218fcc6763ff0b))
 
 # [2.2.0](https://github.com/schedule-x/preact/compare/v2.1.1...v2.2.0) (2024-10-04)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v2.3.0 ([#25](https://github.com/schedule-x/preact/issues/25)) ([b59eb2a](https://github.com/schedule-x/preact/commit/b59eb2ab00cb14070f36e0a7f06fc64349dc09bf))
+- update schedule-x monorepo packages to v2.3.0 ([#25](https://github.com/schedule-x/preact/issues/25)) ([b59eb2a](https://github.com/schedule-x/preact/commit/b59eb2ab00cb14070f36e0a7f06fc64349dc09bf))
 
 ## [2.1.1](https://github.com/schedule-x/preact/compare/v2.1.0...v2.1.1) (2024-10-01)
 
-
 ### Bug Fixes
 
-* update schedule-x monorepo packages to v2.2.1 ([#24](https://github.com/schedule-x/preact/issues/24)) ([19089e9](https://github.com/schedule-x/preact/commit/19089e9b871921e96116c7d1132a4cfde24dd58e))
+- update schedule-x monorepo packages to v2.2.1 ([#24](https://github.com/schedule-x/preact/issues/24)) ([19089e9](https://github.com/schedule-x/preact/commit/19089e9b871921e96116c7d1132a4cfde24dd58e))
 
 # [2.1.0](https://github.com/schedule-x/preact/compare/v2.0.0...v2.1.0) (2024-09-26)
 
-
 ### Features
 
-* update schedule-x monorepo packages ([#23](https://github.com/schedule-x/preact/issues/23)) ([88bb017](https://github.com/schedule-x/preact/commit/88bb017d57598f3141fc1e2753e42696aaa6b867))
+- update schedule-x monorepo packages ([#23](https://github.com/schedule-x/preact/issues/23)) ([88bb017](https://github.com/schedule-x/preact/commit/88bb017d57598f3141fc1e2753e42696aaa6b867))
 
 # [2.0.0](https://github.com/schedule-x/preact/compare/v1.3.1...v2.0.0) (2024-09-23)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v2 ([#20](https://github.com/schedule-x/preact/issues/20)) ([e5ee19c](https://github.com/schedule-x/preact/commit/e5ee19ce8625edd9af8a918d23bc6a33cd66f065))
-
+- update schedule-x monorepo packages to v2 ([#20](https://github.com/schedule-x/preact/issues/20)) ([e5ee19c](https://github.com/schedule-x/preact/commit/e5ee19ce8625edd9af8a918d23bc6a33cd66f065))
 
 ### BREAKING CHANGES
 
-* v2 works only with v2 plugins
+- v2 works only with v2 plugins
 
 ## [1.3.1](https://github.com/schedule-x/preact/compare/v1.3.0...v1.3.1) (2024-09-13)
 
-
 ### Bug Fixes
 
-* update schedule-x monorepo packages to v1.63.1 ([#18](https://github.com/schedule-x/preact/issues/18)) ([4ffaa2e](https://github.com/schedule-x/preact/commit/4ffaa2e4003eea792b86f6ea9b1b14ec799673c1))
+- update schedule-x monorepo packages to v1.63.1 ([#18](https://github.com/schedule-x/preact/issues/18)) ([4ffaa2e](https://github.com/schedule-x/preact/commit/4ffaa2e4003eea792b86f6ea9b1b14ec799673c1))
 
 # [1.3.0](https://github.com/schedule-x/preact/compare/v1.2.1...v1.3.0) (2024-09-11)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v1.63.0 ([#16](https://github.com/schedule-x/preact/issues/16)) ([f0158d7](https://github.com/schedule-x/preact/commit/f0158d7ee6257f297dfeb3c1008c86acd3199949))
+- update schedule-x monorepo packages to v1.63.0 ([#16](https://github.com/schedule-x/preact/issues/16)) ([f0158d7](https://github.com/schedule-x/preact/commit/f0158d7ee6257f297dfeb3c1008c86acd3199949))
 
 ## [1.2.1](https://github.com/schedule-x/preact/compare/v1.2.0...v1.2.1) (2024-09-03)
 
-
 ### Bug Fixes
 
-* update schedule-x monorepo packages to v1.60.1 ([#14](https://github.com/schedule-x/preact/issues/14)) ([e590dce](https://github.com/schedule-x/preact/commit/e590dce79a65d2303312fd3003c6aad7307f726c))
+- update schedule-x monorepo packages to v1.60.1 ([#14](https://github.com/schedule-x/preact/issues/14)) ([e590dce](https://github.com/schedule-x/preact/commit/e590dce79a65d2303312fd3003c6aad7307f726c))
 
 # [1.2.0](https://github.com/schedule-x/preact/compare/v1.1.2...v1.2.0) (2024-08-31)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v1.60.0 ([#13](https://github.com/schedule-x/preact/issues/13)) ([a77754b](https://github.com/schedule-x/preact/commit/a77754b6278e97d92143c3db3180af50aa0ff145))
+- update schedule-x monorepo packages to v1.60.0 ([#13](https://github.com/schedule-x/preact/issues/13)) ([a77754b](https://github.com/schedule-x/preact/commit/a77754b6278e97d92143c3db3180af50aa0ff145))
 
 ## [1.1.2](https://github.com/schedule-x/preact/compare/v1.1.1...v1.1.2) (2024-08-28)
 
-
 ### Bug Fixes
 
-* update schedule-x monorepo packages to v1.59.2 ([#11](https://github.com/schedule-x/preact/issues/11)) ([5cb7b27](https://github.com/schedule-x/preact/commit/5cb7b2708b7d2029e9e44deb09c27fed1f05c7ab))
+- update schedule-x monorepo packages to v1.59.2 ([#11](https://github.com/schedule-x/preact/issues/11)) ([5cb7b27](https://github.com/schedule-x/preact/commit/5cb7b2708b7d2029e9e44deb09c27fed1f05c7ab))
 
 ## [1.1.1](https://github.com/schedule-x/preact/compare/v1.1.0...v1.1.1) (2024-08-26)
 
-
 ### Bug Fixes
 
-* update schedule-x monorepo packages to v1.59.1 ([#9](https://github.com/schedule-x/preact/issues/9)) ([6622852](https://github.com/schedule-x/preact/commit/6622852449985f91c7e7b0726a2e9942320598bf))
+- update schedule-x monorepo packages to v1.59.1 ([#9](https://github.com/schedule-x/preact/issues/9)) ([6622852](https://github.com/schedule-x/preact/commit/6622852449985f91c7e7b0726a2e9942320598bf))
 
 # [1.1.0](https://github.com/schedule-x/preact/compare/v1.0.2...v1.1.0) (2024-08-25)
 
-
 ### Features
 
-* update schedule-x monorepo packages to v1.59.0 ([#5](https://github.com/schedule-x/preact/issues/5)) ([fc909d9](https://github.com/schedule-x/preact/commit/fc909d9b4d896c468473befd6fb8685274ce93d2))
+- update schedule-x monorepo packages to v1.59.0 ([#5](https://github.com/schedule-x/preact/issues/5)) ([fc909d9](https://github.com/schedule-x/preact/commit/fc909d9b4d896c468473befd6fb8685274ce93d2))
 
 ## [1.0.2](https://github.com/schedule-x/preact/compare/v1.0.1...v1.0.2) (2024-07-29)
 
-
 ### Bug Fixes
 
-* reference to build artifacts in package.json ([#7](https://github.com/schedule-x/preact/issues/7)) ([ade2ddc](https://github.com/schedule-x/preact/commit/ade2ddce0cca3c97cf45f8fc69bb71f6fa9a3746))
+- reference to build artifacts in package.json ([#7](https://github.com/schedule-x/preact/issues/7)) ([ade2ddc](https://github.com/schedule-x/preact/commit/ade2ddce0cca3c97cf45f8fc69bb71f6fa9a3746))
 
 ## [1.0.1](https://github.com/schedule-x/preact/compare/v1.0.0...v1.0.1) (2024-07-29)
 
-
 ### Bug Fixes
 
-* build script for declarations ([#6](https://github.com/schedule-x/preact/issues/6)) ([eadaf18](https://github.com/schedule-x/preact/commit/eadaf1810e63547bd26f22ec260e0e140fbefea9))
+- build script for declarations ([#6](https://github.com/schedule-x/preact/issues/6)) ([eadaf18](https://github.com/schedule-x/preact/commit/eadaf1810e63547bd26f22ec260e0e140fbefea9))
 
 # 1.0.0 (2024-07-29)
 
