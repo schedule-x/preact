@@ -6,7 +6,7 @@ import {
   CustomComponentMeta,
   CustomComponentsMeta,
 } from './types/custom-components.ts'
-import { CustomComponentName } from "@schedule-x/shared";
+import { CustomComponentName } from '@schedule-x/shared'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type PreactComponent = ComponentType<any>
