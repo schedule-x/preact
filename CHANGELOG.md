@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.13.0](https://github.com/schedule-x/preact/compare/v2.12.0...v2.13.0) (2025-02-06)
+
+
+### Features
+
+* dynamic custom components ([#54](https://github.com/schedule-x/preact/issues/54)) ([73b95ef](https://github.com/schedule-x/preact/commit/73b95efe16dacc98b0e2049caac6fb8d8ee884ef))
+
 # [2.12.0](https://github.com/schedule-x/preact/compare/v2.11.1...v2.12.0) (2025-02-04)
 
 ### Features
