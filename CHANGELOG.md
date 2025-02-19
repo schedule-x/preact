@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.15.0](https://github.com/schedule-x/preact/compare/v2.14.0...v2.15.0) (2025-02-19)
+
+
+### Features
+
+* **deps:** update schedule-x monorepo packages to v2.20.0 ([#55](https://github.com/schedule-x/preact/issues/55)) ([ea29a7b](https://github.com/schedule-x/preact/commit/ea29a7b983685daa243f2e9d1d3e717386cdaf80))
+
 # [2.14.0](https://github.com/schedule-x/preact/compare/v2.13.0...v2.14.0) (2025-02-13)
 
 
