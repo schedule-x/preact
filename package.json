@@ -12,8 +12,12 @@
     "internationalization",
     "preact"
   ],
-  "main": "dist/preact.umd.cjs",
-  "module": "dist/preact.js",
+  "exports": {
+    ".": {
+      "import": "./dist/preact.js",
+      "require": "./dist/preact.umd.cjs"
+    }
+  },
   "types": "dist/types/index.d.ts",
   "version": "2.30.0",
   "type": "module",
