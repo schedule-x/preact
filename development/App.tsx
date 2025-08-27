@@ -12,37 +12,39 @@ import { createEventModalPlugin } from '@schedule-x/event-modal'
 import CustomTimeGridEvent from './components/CustomTimeGridEvent.tsx'
 import CustomDateGridEvent from './components/CustomDateGridEvent.tsx'
 import CustomEventModal from './components/CustomEventModal.tsx'
+import 'temporal-polyfill/global'
 
 function App() {
   const calendarApp = useCalendarApp({
     views: [viewMonthGrid, viewDay, viewWeek, viewMonthAgenda],
-    selectedDate: '2023-12-22',
+    selectedDate: Temporal.PlainDate.from('2023-12-22'),
     events: [
       {
         id: '0',
         title: 'Event 0',
-        start: '2023-12-22',
-        end: '2023-12-22',
+        start: Temporal.PlainDate.from('2023-12-22'),
+        end: Temporal.PlainDate.from('2023-12-22'),
       },
       {
         id: '1',
         title: 'Event 1',
-        start: '2023-12-22 05:00',
-        end: '2023-12-22 07:00',
+        start: Temporal.ZonedDateTime.from('2023-12-22T05:00:00+09:00[Asia/Tokyo]'),
+        end: Temporal.ZonedDateTime.from('2023-12-22T07:00:00+09:00[Asia/Tokyo]'),
       },
       {
         id: '2',
         title: 'Event 2',
-        start: '2023-12-22 05:00',
-        end: '2023-12-22 07:00',
+        start: Temporal.ZonedDateTime.from('2023-12-22T05:00:00+09:00[Asia/Tokyo]'),
+        end: Temporal.ZonedDateTime.from('2023-12-22T07:00:00+09:00[Asia/Tokyo]'),
       },
       {
         id: '3',
         title: 'Event 3',
-        start: '2023-12-23 05:00',
-        end: '2023-12-23 07:00',
+        start: Temporal.ZonedDateTime.from('2023-12-23T05:00:00+09:00[Asia/Tokyo]'),
+        end: Temporal.ZonedDateTime.from('2023-12-23T07:00:00+09:00[Asia/Tokyo]'),
       },
     ],
+    timezone: 'Asia/Tokyo',
     plugins: [createDragAndDropPlugin(), createEventModalPlugin()],
   })
 
