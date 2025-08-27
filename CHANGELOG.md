@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/schedule-x/preact/compare/v2.31.0...v3.0.0) (2025-08-27)
+
+
+### Features
+
+* v3 ([#89](https://github.com/schedule-x/preact/issues/89)) ([b3bd1ed](https://github.com/schedule-x/preact/commit/b3bd1ed76081bc30ef9f3edf968a19aecec63522))
+
+
+### BREAKING CHANGES
+
+* use v3
+
 # [2.31.0](https://github.com/schedule-x/preact/compare/v2.30.1...v2.31.0) (2025-07-09)
 
 
