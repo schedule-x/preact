@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.4.0](https://github.com/schedule-x/preact/compare/v3.3.0...v3.4.0) (2025-12-18)
+
+
+### Features
+
+* **deps:** update schedule-x monorepo packages ([#100](https://github.com/schedule-x/preact/issues/100)) ([378435d](https://github.com/schedule-x/preact/commit/378435d462f88d93d54df191017102fa9379754b))
+
 # [3.3.0](https://github.com/schedule-x/preact/compare/v3.2.0...v3.3.0) (2025-10-13)
 
 
