@@ -12,7 +12,7 @@ import { CustomComponentName } from '@schedule-x/shared'
 type PreactComponent = ComponentType<any>
 
 type props = {
-  calendarApp: CalendarApp | undefined // undefined allowed to prevent errors in SSR
+  calendarApp: CalendarApp | null | undefined // null/undefined allowed to prevent errors in SSR
   customComponents?: {
     [key in CustomComponentName]?: PreactComponent
   }
@@ -56,7 +56,7 @@ export function ScheduleXCalendar({ calendarApp, customComponents }: props) {
   }, [])
 
   useEffect(() => {
-    if (!calendarApp) return // in SSR, calendarApp will be undefined
+    if (!calendarApp) return // in SSR, calendarApp will be null/undefined
 
     for (const [componentName, Component] of Object.entries(
       customComponents || {}
@@ -73,6 +73,10 @@ export function ScheduleXCalendar({ calendarApp, customComponents }: props) {
     if (!calendarElement) return
 
     calendarApp.render(calendarElement as HTMLElement)
+
+    return () => {
+      if (calendarApp) calendarApp.destroy()
+    }
   }, [calendarApp, customComponents, randomId])
 
   return (

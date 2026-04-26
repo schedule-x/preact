@@ -7,7 +7,6 @@ import {
   viewWeek,
 } from '@schedule-x/calendar'
 import '@schedule-x/theme-default/dist/index.css'
-import { createDragAndDropPlugin } from '@schedule-x/drag-and-drop'
 import { createEventModalPlugin } from '@schedule-x/event-modal'
 import CustomTimeGridEvent from './components/CustomTimeGridEvent.tsx'
 import CustomDateGridEvent from './components/CustomDateGridEvent.tsx'
@@ -45,7 +44,7 @@ function App() {
       },
     ],
     timezone: 'Asia/Tokyo',
-    plugins: [createDragAndDropPlugin(), createEventModalPlugin()],
+    plugins: [createEventModalPlugin()],
   })
 
   return (
