@@ -1,12 +1,8 @@
-import { CalendarApp, CalendarConfig, createCalendar } from '@schedule-x/calendar'
-import { PluginBase } from '@schedule-x/shared'
+import { CalendarConfig, createCalendar } from '@schedule-x/calendar'
 import { useState } from 'preact/hooks'
 
-export function useCalendarApp<Plugins extends PluginBase<string>[]>(
-  config: CalendarConfig,
-  plugins?: Plugins
-): CalendarApp {
-  const [calendarApp] = useState(() => createCalendar(config, plugins))
+export function useCalendarApp(config: CalendarConfig) {
+  const [calendarApp] = useState(() => createCalendar(config))
 
   return calendarApp
 }
