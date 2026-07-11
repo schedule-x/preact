@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/schedule-x/preact/compare/v3.5.0...v4.0.0) (2026-07-11)
+
+
+* feat!: trigger v4 release ([#108](https://github.com/schedule-x/preact/issues/108)) ([191554b](https://github.com/schedule-x/preact/commit/191554bd9c6be01f46ba38cce186c5f5aba25711))
+
+
+### BREAKING CHANGES
+
+* The Preact package now targets Schedule-X v4 peer dependencies.
+
+Co-authored-by: Tom Österlund <tomosterlund@macbookpro.speedport.ip>
+
 # [3.5.0](https://github.com/schedule-x/preact/compare/v3.4.0...v3.5.0) (2026-07-11)
 
 
