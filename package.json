@@ -10,6 +10,7 @@
     "event",
     "dark-mode",
     "internationalization",
+    "schedule-x",
     "preact"
   ],
   "exports": {
