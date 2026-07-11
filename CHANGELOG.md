@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.5.0](https://github.com/schedule-x/preact/compare/v3.4.0...v3.5.0) (2026-07-11)
+
+
+### Features
+
+* configure npm trusted publishing ([#107](https://github.com/schedule-x/preact/issues/107)) ([13b1a93](https://github.com/schedule-x/preact/commit/13b1a936760030eadcda7fa37d5a9017cee7fb04))
+* **deps:** update @schedule-x/preact to support schedule-x v4 ([#105](https://github.com/schedule-x/preact/issues/105)) ([d146062](https://github.com/schedule-x/preact/commit/d1460622f115aa6b584f60834117a5755f67adf8))
+* **deps:** update schedule-x monorepo packages to v3.7.3 ([#104](https://github.com/schedule-x/preact/issues/104)) ([ded9c14](https://github.com/schedule-x/preact/commit/ded9c14091c976840563d12a60ad4a49423c947a))
+
 # [3.4.0](https://github.com/schedule-x/preact/compare/v3.3.0...v3.4.0) (2025-12-18)
 
 

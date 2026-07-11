@@ -19,7 +19,7 @@
     }
   },
   "types": "dist/types/index.d.ts",
-  "version": "4.0.0",
+  "version": "3.5.0",
   "type": "module",
   "files": [
     "dist"
